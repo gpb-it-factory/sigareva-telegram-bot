@@ -3,6 +3,9 @@ name: Gradle Build and Test
 on:
   pull_request:
     types: [opened, reopened, synchronize]
+  push:
+    branches: [ "feature/4" ]
+
 
 jobs:
   build:
